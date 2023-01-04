@@ -13,7 +13,7 @@ const themes = {
 
 const ThemeContext = React.createContext(themes.light);
 
-function ButtonComponent() {
+function Button() {
   return (
     <>
       <ThemeContext.Provider value={themes.dark}>
@@ -40,4 +40,4 @@ function ThemedButton() {
   );
 }
 
-export default ButtonComponent;
+export default Button;
